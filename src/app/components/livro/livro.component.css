@@ -70,3 +70,9 @@ section {
     transition: transform 0.2s ease, opacity 0.2s ease;
   }
   
+  .imagem img {
+    width: 128px;
+    height: 184px;
+    margin-bottom: 20px;
+  }
+  
