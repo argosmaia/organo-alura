@@ -5,78 +5,44 @@ export const livros: Livro[] = [
     titulo: "1984",
     autor: "George Orwell",
     favorito: false,
+    imagem: "data:image/jpeg;base64,...",
     genero: {
       id: "distopia",
       value: "Distopia",
-      livros: []
-    },
-    imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+      livros: [] // Preenchido depois
+    }
   },
   {
-    titulo: "O Senhor dos Anéis: A Sociedade do Anel",
+    titulo: "O Senhor dos Anéis",
     autor: "J.R.R. Tolkien",
     favorito: false,
+    imagem: "data:image/jpeg;base64,...",
     genero: {
       id: "fantasia",
       value: "Fantasia",
-      livros: [
-        {
-          titulo: "O Senhor dos Anéis: As Duas Torres",
-          autor: "J.R.R. Tolkien",
-          favorito: false,
-          genero: {
-            id: "fantasia",
-            value: "Fantasia",
-            livros: []
-          },
-          imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
-        },
-        {
-          titulo: "O Senhor dos Anéis: O Retorno do Rei",
-          autor: "J.R.R. Tolkien",
-          favorito: false,
-          genero: {
-            id: "fantasia",
-            value: "Fantasia",
-            livros: []
-          },
-          imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
-        }
-      ]
-    },
-    imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+      livros: []
+    }
   },
   {
-    titulo: "Dom Quixote",
-    autor: "Miguel de Cervantes",
+    titulo: "Sherlock Holmes: Um Estudo em Vermelho",
+    autor: "Arthur Conan Doyle",
     favorito: false,
+    imagem: "data:image/jpeg;base64,...",
     genero: {
-      id: "classico",
-      value: "Clássico",
+      id: "misterio",
+      value: "Mistério",
       livros: []
-    },
-    imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+    }
   },
   {
-    titulo: "Orgulho e Preconceito",
-    autor: "Jane Austen",
+    titulo: "Percy Jackson e o Ladrão de Raios",
+    autor: "Rick Riordan",
     favorito: false,
+    imagem: "data:image/jpeg;base64,...",
     genero: {
-      id: "romance",
-      value: "Romance",
+      id: "aventura",
+      value: "Aventura",
       livros: []
-    },
-    imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
-  },
-  {
-    titulo: "O Apanhador no Campo de Centeio",
-    autor: "J.D. Salinger",
-    favorito: false,
-    genero: {
-      id: "ficcao",
-      value: "Ficção",
-      livros: []
-    },
-    imagem: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+    }
   }
 ];
