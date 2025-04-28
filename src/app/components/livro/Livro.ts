@@ -1,7 +1,9 @@
+import { Genero } from "./Genero";
+
 export interface Livro {
     titulo: string;
     autor: string;
-    favorito: boolean;
-    genero: string;
     imagem: string;
+    favorito: boolean;
+    genero: Genero;
 }
