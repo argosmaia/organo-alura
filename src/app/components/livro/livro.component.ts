@@ -3,6 +3,7 @@ import { Livro } from './Livro';
 
 @Component({
   selector: 'app-livro',
+  standalone: true,
   imports: [],
   templateUrl: './livro.component.html',
   styleUrl: './livro.component.css'
